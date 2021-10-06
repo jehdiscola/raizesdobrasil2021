@@ -1,26 +1,27 @@
-# Raízes do Brasil :deciduous_tree:
+# Raizesdobrasil
 
-## Projeto Integrador desenvolvido no bootcamp da Generation Brasil.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
-### Utilizamos 
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
 
-## Desenvolvido por 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-[![Badge](https://img.shields.io/badge/-Felipe-green?style=flat-square&labelColor=black&logo=github&logoColor=white&link=https://github.com/kendy09)](https://github.com/kendy09)[![Badge](https://img.shields.io/badge/-Jessica-green?style=flat-square&labelColor=black&logo=github&logoColor=white&link=https://github.com/jehdiscola)](https://github.com/jehdiscola)
-[![Badge](https://img.shields.io/badge/-Milena-green?style=flat-square&labelColor=black&logo=github&logoColor=white&link=https://github.com/micouti)](https://github.com/micouti)[![Badge](https://img.shields.io/badge/-Wesley-green?style=flat-square&labelColor=black&logo=github&logoColor=white&link=https://github.com/DevWesleys)](https://github.com/DevWesleys)
+## Running unit tests
 
-<br>
-<div  align="center"> 
-  <a href="https://github.com/jehdiscola">
-  <img height="150em"   align="center" src="https://github-readme-stats.vercel.app/api?username=jehdiscola&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="150em"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jehdiscola&&layout=compact&hide=shell&theme=tokyonight"/>
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-  ![Snake animation](https://github.com/ellen2121/ellen2121/blob/output/github-contribution-grid-snake.svg)
+## Running end-to-end tests
 
-</div>
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

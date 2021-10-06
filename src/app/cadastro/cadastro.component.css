@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+.form-group {
+    margin-top: -2%;
+    width: 100%;
+    text-align: center!important;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #642B18;
+    font-size: 1.5rem;
+}
+
+input {
+    background-color: transparent;
+    width: 100% !important;
+    outline: none;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    font-weight: 300;
+    font-size: 1em;
+    resize: none;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+::ng-deep .mat-form-field-underline {
+    display: none;
+}
+
+.btn {
+    padding: 1%;
+    color: #F8ECEC;
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    text-align: center !important;
+    font-family: "Open Sans", sans-serif;
+}
+
+.linkcadastro {
+    color: #642B18;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.link {
+    color: #505050;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logar {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.example-full-width {
+    border-bottom: none;
+    width: 70%;
+    padding: 0!important;
+    font-family: "Open Sans", sans-serif!important;
+}
+
+.imagemfundo {
+    background-repeat: no-repeat;
+    background-size: 85%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    border-radius: 5em;
+}
+
+
+/* Responsividade CSS */
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 992px!important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px!important;
+    }
+}

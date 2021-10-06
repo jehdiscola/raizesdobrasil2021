@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <!--<a routerLink="/inicio" class="text-white text-left">
+    <i class="fa fa-angle-double-left" aria-hidden="true"></i> início
+  </a>-->
+            <h1 class="fs-54 text-center my-3">{{categoria.descricao}}</h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 mb-3" *ngFor="let produto of categoria.produto">
+            <div class="border card cardcor card-radius" [routerLink]="['/produto', produto.id]">
+                <img class="img-fluid img-radius" alt="Imagem do produto" src="{{produto.imagem}}">
+                <div class="card-body text-center">
+                    <h2 class="nome">{{produto.nome}}</h2>
+                    <p id="preco">R$ {{produto.preco.toFixed(2).replace('.', ',')}}</p>
+                    <a class="btn" id="btn-2">Ver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
